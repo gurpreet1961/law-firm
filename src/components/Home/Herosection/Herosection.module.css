@@ -1,0 +1,68 @@
+.wapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 120px;
+	background-color: var(--color-black);
+	padding: 30px 40px;
+	height: 70vh;
+}
+.hero_text {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	width: 560px;
+}
+.hero_text > h1 {
+	font-size: 66px;
+	font-weight: 500;
+}
+.hero_text > p {
+	font-size: 18px;
+	font-weight: 500;
+	opacity: 30%;
+	width: 560px;
+}
+.email_input {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 15px;
+	width: 438px;
+	height: 74px;
+	border-radius: 43px;
+	border: 1px solid var(--color-black);
+	background-color: var(--color-secondary);
+}
+.email_input > button {
+	width: 137px;
+	height: 62px;
+	border-radius: 43px;
+	border: 1px solid var(--color-primary);
+	background-color: var(--color-primary);
+	font-size: 16px;
+	font-weight: 600;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.email_input > input {
+	background-color: var(--color-secondary);
+	font-size: 16px;
+	font-weight: 600;
+	margin-right: 5px;
+	border: none;
+	color: var(--color-white);
+	font-weight: 400;
+	outline: none;
+}
+.mail_icon {
+	margin-left: 30px;
+}
+
+.mail_icon > path {
+	fill: var(--color-grey);
+}
+.heroImage {
+	height: 100%;
+	width: 30%;
+}
