@@ -1,0 +1,31 @@
+.card {
+	width: 275px;
+	height: 288px;
+	border-radius: 14px;
+	border: 1.4px solid rgba(255, 255, 255, 0.1);
+	background: #2e2e2e;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+	padding: 20px 23px;
+}
+.giftIcon {
+	background-color: var(--color-white);
+	padding: 12px 14px 10px 14px;
+	border-radius: 50%;
+}
+.giftIcon > img {
+	width: 37px;
+	height: 35px;
+}
+.card > p {
+	font-size: 12px;
+	color: var(--color-grey);
+}
+.card > button {
+	padding: 10px 24px;
+	border-radius: 23.5px;
+	background: #e3b748;
+	border: none;
+}
