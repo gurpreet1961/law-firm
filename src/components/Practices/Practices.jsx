@@ -1,9 +1,18 @@
 import React from "react";
+import styles from "./Practices.module.css";
 
 const Practices = () => {
 	return (
-		<div>
-			<h1>Area of Practices</h1>
+		<div className={styles.wrapper}>
+			<h1 className={styles.heading}>Area of Practices</h1>
+			<div className={styles.flexContainer}>
+				<h3 className={styles.item1}>BUSINESS LAW</h3>
+				<h3 className={styles.item2}>PARTNERSHIP LAW</h3>
+				<h3 className={styles.item3}>REAL ESTATE LAW</h3>
+				<h3 className={styles.item4}>BUSINESS LAW</h3>
+				<h3 className={styles.item5}>LANDLORD DISPUTES</h3>
+				<h3 className={styles.item6}>ELDER ABUSE</h3>
+			</div>
 		</div>
 	);
 };
