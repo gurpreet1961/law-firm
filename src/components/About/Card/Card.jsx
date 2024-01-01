@@ -1,12 +1,9 @@
 import styles from "./Card.module.css";
 import giftBox from "../../../Assets/giftBox.svg";
 
-function Card({ rateData, backgroundFilled }) {
+function Card({ rateData }) {
 	return (
-		<div
-			className={styles.wrapper}
-			style={backgroundFilled ? { backgroundColor: "var(--color-grey)" } : null}
-		>
+		<div className={styles.wrapper}>
 			<img src={giftBox} alt="gitBox" width={100} className={styles.logo} />
 			<p className={styles.rate}>{rateData}% Success Rate</p>
 			<p className={styles.text}>

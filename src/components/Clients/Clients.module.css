@@ -1,0 +1,39 @@
+.wapper {
+	display: flex;
+	padding: 100px 300px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 104px;
+	width: 100%;
+}
+.headingWapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+}
+.btnWapper {
+	display: flex;
+	gap: 18px;
+	align-items: end;
+}
+.arrowWapper {
+	width: 70.61px;
+	height: 70.61px;
+	background-color: var(--color-white);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.arrowWapper:hover {
+	background-color: var(--color-primary);
+}
+.ArrowBtn {
+	fill: var(--color-black) !important;
+}
+.cardWapper {
+	display: flex;
+	gap: 30px;
+}

@@ -8,6 +8,9 @@
 	border-radius: 14px;
 	padding: 35px 25px;
 }
+.wrapper:hover {
+	background-color: var(--color-grey);
+}
 
 .rate {
 	font-size: 24px;

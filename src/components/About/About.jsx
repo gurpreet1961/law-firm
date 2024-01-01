@@ -22,7 +22,7 @@ function About() {
 			<h1 className={styles.cardHeader}>Why Choose us?</h1>
 			<div className={styles.card}>
 				<Card rateData={98} />
-				<Card rateData={100} backgroundFilled />
+				<Card rateData={100} />
 				<Card rateData={100} />
 			</div>
 		</div>
