@@ -5,7 +5,7 @@ function Footer() {
 	return (
 		<footer className={styles.footer}>
 			<div className={styles.wrapper}>
-				<Navbar type="footer" />
+				<Navbar type="footer" footer={true} />
 				<div className={styles.bottomText}>
 					<p>© 2020 Acme. All right reserved.</p>
 					<p>Privacy Policy</p>

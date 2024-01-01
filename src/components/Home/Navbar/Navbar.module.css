@@ -19,3 +19,11 @@
 	font-weight: 600;
 	cursor: pointer;
 }
+.socialIcons {
+	display: flex;
+	gap: 23px;
+}
+.socialIcons > img {
+	width: 30px;
+	height: 30px;
+}

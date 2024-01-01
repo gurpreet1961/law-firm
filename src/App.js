@@ -6,6 +6,7 @@ import Team from './components/Team/Team';
 import Practices from './components/Practices/Practices';
 import FAQ from './components/FAQ/FAQ';
 import Newsletter from './components/Newsletter/Newsletter';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Team />
       <FAQ />
       <Newsletter />
+      <Footer />
     </>
   );
 }
