@@ -36,7 +36,7 @@ aliqua dolor do amet sint. Velit officia"
 				/>{" "}
 				<Card
 					img={img2}
-					name="Jane Cooper"
+					name="Devon Lane"
 					position="Ceo of Hunt"
 					about="Amet minim mollit non deserunt ullamco est
 sit aliqua dolor do amet sint. Velit officia
@@ -45,7 +45,7 @@ aliqua dolor do amet sint. Velit officia"
 				/>{" "}
 				<Card
 					img={img3}
-					name="Jane Cooper"
+					name="Robert Fox"
 					position="Ceo of Hunt"
 					about="Amet minim mollit non deserunt ullamco est
 sit aliqua dolor do amet sint. Velit officia
