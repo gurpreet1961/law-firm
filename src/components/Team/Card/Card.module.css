@@ -4,9 +4,9 @@
 	align-items: center;
 	height: 109px;
 	padding: 10px 26px;
+	width: 344px;
 }
 .wapper:hover {
-	width: 344px;
 	background-color: var(--color-primary);
 	border-radius: 14px;
 	color: var(--color-secondary);
